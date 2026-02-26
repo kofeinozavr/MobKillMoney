@@ -1,11 +1,25 @@
 enabled: true
+
+# Если true — платит только если моба убил игрок (а не лава/падение и т.п.)
 player-kills-only: true
+
+# Платить за убийство игроков
 pay-for-player-kills: false
 
-message: "&a+{amount} coins for killing &e{mob}&a!"
+# Уведомление в actionbar (MiniMessage формат)
+# Доступные плейсхолдеры: {amount} {mob} {mob_ru}
+actionbar-message: "<green>+{amount} монет за убийство <yellow>{mob_ru}</yellow></green>"
 
+# Награды
 rewards:
   ZOMBIE: 120.0
   SKELETON: 130.0
   CREEPER: 180.0
   ENDERMAN: 250.0
+
+# Русские названия мобов (можешь дополнять)
+mob-names-ru:
+  ZOMBIE: "Зомби"
+  SKELETON: "Скелет"
+  CREEPER: "Крипер"
+  ENDERMAN: "Эндермен"
