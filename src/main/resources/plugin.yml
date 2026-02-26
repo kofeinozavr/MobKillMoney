@@ -1,0 +1,5 @@
+name: MobKillMoney
+version: 1.0.0
+main: dev.server.mobkillmoney.MobKillMoney
+api-version: "1.21"
+depend: [Vault]
