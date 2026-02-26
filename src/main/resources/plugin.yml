@@ -1,5 +1,15 @@
 name: MobKillMoney
-version: 1.0.0
+version: 1.0.1
 main: dev.server.mobkillmoney.MobKillMoney
 api-version: "1.21"
 depend: [Vault]
+
+commands:
+  mkm:
+    description: MobKillMoney commands
+    usage: /mkm reload
+
+permissions:
+  mkm.reload:
+    description: Allows reloading MobKillMoney config
+    default: op
