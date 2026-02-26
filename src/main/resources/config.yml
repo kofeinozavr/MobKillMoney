@@ -1,0 +1,11 @@
+enabled: true
+player-kills-only: true
+pay-for-player-kills: false
+
+message: "&a+{amount} coins for killing &e{mob}&a!"
+
+rewards:
+  ZOMBIE: 120.0
+  SKELETON: 130.0
+  CREEPER: 180.0
+  ENDERMAN: 250.0
